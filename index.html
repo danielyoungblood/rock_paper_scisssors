@@ -20,15 +20,22 @@
     </ul>
     </p>
     <div>
-        <button class="image-button" onclick="alert('selected rock')"> <img src="rock.gif" alt="Image"> </button>
-        <button class="image-button" onclick="alert('selected paper')"> <img src="paper.gif" alt="Image"> </button>
-        <button class="image-button" onclick="alert('selected scissors')"> <img src="scissors.gif" alt="Image"> </button>
+        <button class="image-button" onclick="playRound('rock')"> <img src="rock.gif" alt="Image"> </button>
+        <button class="image-button" onclick="playRound('paper')"> <img src="paper.gif" alt="Image"> </button>
+        <button class="image-button" onclick="playRound('scissors')"> <img src="scissors.gif" alt="Image"> </button>
     </div>
     <div id="results">
-       <h1>results</h1> 
-       <p>you selected rock</p>
-       <img src="/rock.gif" alt="picture of rock" width="50px" height="50px">
-       <p>the computer selected scissors</p>
+        <h1>results</h1> 
+        <div id="players">
+           <div id="user">
+              <p>you selected</p>
+              <img id="user_img" src="" alt=" " width="50px" height="50px" style="display:none">
+           </div>
+           <div id="computer">
+              <p>the computer selected </p>
+              <img id="computer_img" src="" alt=" " width="50px" height="50px" style="display:none">
+            </div>
+        </div>
     </div>
 </body>
 
