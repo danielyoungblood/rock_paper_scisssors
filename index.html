@@ -8,24 +8,28 @@
 </title>
  
 <body>
+    
     <h1>rock, paper, scissors game </h1>
+    
     <p> 
         The user will click on one of the buttons labeled rock, paper or scissors.
         The computer will randomly select for itself either rock, paper or scissors.
         The following rules apply: 
         <ul>
-        <li>Rock beats scissors</li>
-        <li>Scissors beat paper</li>
-        <li>Paper beats rock</li>
-    </ul>
+            <li>Rock beats scissors</li>
+            <li>Scissors beat paper</li>
+            <li>Paper beats rock</li>
+        </ul>
     </p>
+    
     <div>
         <button class="image-button" onclick="playRound('rock')"> <img src="rock.gif" alt="Image"> </button>
         <button class="image-button" onclick="playRound('paper')"> <img src="paper.gif" alt="Image"> </button>
         <button class="image-button" onclick="playRound('scissors')"> <img src="scissors.gif" alt="Image"> </button>
     </div>
+    
     <div id="results">
-        <h1>results</h1> 
+        <h1>Results</h1> 
         <div id="players">
            <div id="user">
               <p>you selected</p>
@@ -40,6 +44,23 @@
 
         </p>
     </div>
+
+    <div id="scores"> 
+        <h1> 
+            Scores
+        </h1>
+        <div id="player_scores">
+            <div id="user_score"> 
+                <span>user score: </span>
+                <span id="user_score_value"> 0 </spanid>
+            </div>
+            <div id="computer_score">
+                <span>computer score: </span>
+                <span id="computer_score_value"> 0 </span>
+            </div>
+         </div>
+    </div>
+
 </body>
 
 
