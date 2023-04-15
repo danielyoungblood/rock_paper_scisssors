@@ -6,7 +6,7 @@ div{text-align: center;
 
 button{margin: 10px;}
 
-#results{border: 2px;
+#results, #scores{border: 2px;
 background-color: aqua;
 border-color: black;
 border-style:solid;
@@ -31,7 +31,7 @@ margin-top: 20px;
       background-color: yellow;
   }
 
-  .image-button:active{
+  .image-button:active {
     box-shadow: none;
   }
 
@@ -40,15 +40,15 @@ margin-top: 20px;
       margin: 2px;
   }
 
-  #user {
+  #user, #user_score {
     margin-right: 50px;
   }
 
-  #computer {
+  #computer, #computer_score {
     margin-left: 50px;
   }
 
-  #players{
+  #players, #player_scores{
     display: flex;
     flex-direction: row;
     justify-content: center;
