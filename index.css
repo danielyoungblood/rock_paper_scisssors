@@ -42,6 +42,7 @@ margin-top: 20px;
 
   #user, #user_score {
     margin-right: 50px;
+    padding-bottom: 50px;
   }
 
   #computer, #computer_score {
