@@ -75,4 +75,6 @@ function playRound(playerSelection) {
   */
 
   document.getElementById("winner").innerHTML = results;
+  document.getElementById("user_score_value").innerHTML = score;
+  document.getElementById("computer_score_value").innerHTML = score;
 }
