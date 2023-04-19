@@ -1,6 +1,6 @@
-let score = 0;         //This is how we keep track of the players score.
+let score = 0; //This is how we keep track of the players score.
 let computerScore = 0; //This is how we keep track of the computer score.
-let results = "";      //This keeps track of the result of the round, who wins or who loses.
+let results = ""; //This keeps track of the result of the round, who wins or who loses.
 
 //The value of 'rock', 'paper', or 'scissors' is passed to the playRound function using the playerSelection parameter.
 function playRound(playerSelection) {
@@ -76,5 +76,5 @@ function playRound(playerSelection) {
 
   document.getElementById("winner").innerHTML = results;
   document.getElementById("user_score_value").innerHTML = score;
-  document.getElementById("computer_score_value").innerHTML = score;
+  document.getElementById("computer_score_value").innerHTML = computerScore;
 }
